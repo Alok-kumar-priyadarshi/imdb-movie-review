@@ -12,7 +12,7 @@ reverse_word_index = {value:key for key,value in word_index.items()}
 
 # load the pre-trained model with Relu activation
 # model = load_model('simple_RNN_imdb.h5')
-model = load_model('model.keras')
+model = load_model('model.keras',safe_mode=False)
 # model.save('model.keras')
 
 
@@ -50,4 +50,5 @@ if st.button('classify'):
     st.write(f"predict score : {1-prediction[0][0]}")
 else:
     st.write("Please enter a moview review!")  
+
 
