@@ -5,4 +5,6 @@ scikit-learn
 matplotlib
 tensorboard
 streamlit==1.54.0
+keras
+
 
