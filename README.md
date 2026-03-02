@@ -1,2 +1,4 @@
 # imdb-movie-review
-screenshots/app.png
+
+
+![Deployed Version](screenshots/app.png)
